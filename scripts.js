@@ -19,15 +19,22 @@
 
 // console.log(area)
 
-const forma = 'quadado'
-const altura = 5;
-const comprimento = 7;
-let area;
+// const forma = 'quadado'
+// const altura = 5;
+// const comprimento = 7;
+// let area;
 
-if (forma === 'quadrado') {
-    area = altura * comprimento;
-} else {
-    area = (altura * comprimento) / 2;
-}
+// if (forma === 'quadrado') {
+//     area = altura * comprimento;
+// } else {
+//     area = (altura * comprimento) / 2;
+// }
 
-console.log(area)
+// tipagem dinâmica 
+// untyped
+
+let minhaVar = 567;
+minhaVar = "texto";
+minhaVar = true;
+console.log(minhaVar)
+
